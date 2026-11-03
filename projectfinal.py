@@ -21,9 +21,9 @@ amount.pack(pady=10)
 message = tk.Label(window, text="Welcome!")
 message.pack(pady=10)
 
-
+#function for update balance
 def update_balance():
-    balance_label.config(text=f"Balance: €{balance:.2f}")
+    balance_label.config(text=f"Balance: €{balance:.2f}") 
 
 
 def deposit():
